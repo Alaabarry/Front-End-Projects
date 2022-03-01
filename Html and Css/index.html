@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Future Technology</title>
+    <style>
+   * {
+     padding:0;
+     margin:0;
+     box-sizing: border-box;
+
+   }
+   header{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 100%;
+     white-space: nowrap;
+     height:200px;
+     background-color: orange;
+
+   }
+   #head-title {
+     padding-top:20px;
+     padding-left:24px;
+     font-size:30px;
+   }
+   nav {
+
+     display:inline-block;
+   }
+   ul {
+
+  padding-top:25px;
+  }
+
+li {
+  display: inline;
+  font-size:30px;
+  margin-left: 10px;
+  margin-right: 50px;
+
+   }
+   li a {
+    text-decoration:none;
+
+      color:black;
+   }
+   .column {
+      float: left;
+      width: 50%;
+      padding: 10px;
+      height: 600px;
+      margin-top:40px;
+
+    }
+   .row:after {
+      content: "";
+      display: table;
+       clear: both;
+    }
+    #img-content {
+   float:right;
+   width:100%;
+   height:400px;
+
+    }
+    #content-title{
+     font-size:30px;
+     font-family: initial;
+     color:white;
+    }
+  #content-info{
+   font-size:28px;
+   font-family:initial;
+   color:white;
+   justify-content: center;
+   padding-top:20px;
+  }
+
+#btn{
+  margin-top:20px;
+  margin-left: 100px;
+ background-color:orange;
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 25px;
+}
+.container {
+  background-color:#b642f5;
+  height:auto;
+  width:auto;
+}
+.footer {
+  height:200px;
+  width:100%;
+  background-color:orange;
+}
+#footer-info {
+  text-align:center;
+  font-size:25px;
+  font-family:initial;
+  padding-top:50px;
+}
+.about-list li{
+  display: inline;
+  font-size:20px;
+  margin-left:190px;
+
+}
+    </style>
+  </head>
+  <body>
+    <header>
+    <h3 id="head-title">Technology Corp td.</h3>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="img-content">Gallery</a></li>
+        <li><a href="#about">About us</a></li>
+        <li><a href="signup.html">Sign up</a></li>
+      </ul>
+    </nav>
+    </header>
+    <div class="container">
+      <div class="row">
+        <div class="column">
+         <p id="content-title">Create YOur own customize website</p>
+         <p id="content-info">Technology corp is a leader company in software production and cloud hosting
+          we will build your producte from scratch using the latest web technologies to start your own bussnies !
+
+         </p>
+         <button id="btn" onclick="myfun()">Create a Website</button>
+        </div>
+        <div class="column">
+        <img  id="img-content"src="https://mydecorative.com/wp-content/uploads/2018/04/how-to-create-a-website-feature-image.jpg" alt="technology pic">
+
+        </div>
+
+    </div>
+    </div>
+    <footer class="footer">
+    <p id="footer-info">CopyRight &copy; to <b>Technology Corp Ltd.</b></p>
+  <ul class="about-list" id="about">
+    <li>Location :Ramallah al berih</li>
+    <li>email:technologyCorp@hotmal</li>
+    <li>Tel +987469340</li>
+  </ul>
+     </footer>
+
+  </body>
+</html>
