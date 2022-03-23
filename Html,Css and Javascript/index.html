@@ -7,22 +7,85 @@
     <link rel="stylesheet" href="./Css/shared.css">
   </head>
   <body>
+  <div class="container">
 
-    <div class="header">
-      <div class="head-title">
-     <h2>Travel guide</h2>
+   <div class="header-title">
+    <h2 id="title">Travel Guide</h2>
    </div>
    <div class="navbar">
-     <nav>
-       <ul>
-         <li><a href="#">Home</a></li>
-            <li><a href="#">Gallery</a></li>
-             <li><a href="#">About</a></li>
-
-       </ul>
-     </nav>
+     <ul>
+       <li><a href="index.html">Home</a></li>
+       <li><a href="#title-sec2">Gallery</a></li>
+       <li><a href="#contact-list">Contact Us</a></li>
+     </ul>
    </div>
-   </div>
+  </div>
+   <div class="section-1">
+     <div class="content-info">
+      <h2 id="section-title">Explore the World ! </h2>
 
+      <p id="section-data">Explore the world In your way
+       Create memories that you won't forget
+       You only live once so don't waste your time
+      Please don't waste your time
+
+      Take a risk, go outside
+      In your way, you will find your inner naked soul
+
+     Explore the world In your way
+     Create memories that you won't forget
+    You only live once so don't waste your time
+    Please don't waste your time.</p>
+     </div>
+     <div class="content-photo">
+    <img id="content-img" src="Images/content-img.jpg" alt="travel">
+     </div>
+   </div>
+         <h2 id="title-sec2"> Most Visited Places To Travel !</h2>
+
+     <div class="section-2">
+      <div class="img-container-1">
+        <img src="Images/pic-1.jpg" alt="japan" class="pic-1">
+        <p class="text-1">Tokyo, Japan’s busy capital, mixes the ultramodern and the traditional, from neon-lit skyscrapers to historic temples.</p>
+      </div>
+      <div class="img-container-2">
+        <img src="Images/pic-2.jpg" alt="uk" class="pic-2">
+        <p class="text-2">London, city, capital of the United Kingdom. It is among the oldest of the world’s great cities—its history Amazing</p>
+      </div>
+      <div class="img-container-3">
+        <img src="Images/pic-3.jpg" alt="newyork" class="pic-3">
+        <p class="text-3">New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At its core is Manhattan. </p>
+      </div>
+      <div class="img-container-4">
+        <img src="Images/pic-4.jpg" alt="italy" class="pic-4">
+        <p class="text-4">Italy, a European country with a long Mediterranean coastline, has left a powerful mark on Western culture and cuisine. </p>
+      </div>
+    </div>
+    <h2 class="section3-title">Book your ticket to Travel!</h2>
+   <div class="section-3">
+     <label  id="label-title"for="form"> Looking for trip mapping and fast booking drop your contact info and our agents will contact with you . </label>
+      <form class="form-data" action="index.html" method="post">
+        <label  id="fname"for="first_name">First name </label>
+        <input id="box-1" type="text"  placeholder=""name="fname"/required>
+
+        <label  id="lname"for="last_name">Last name</label>
+        <input type="text" name="lsname" placeholder="" id="box-2"/required>
+
+                <label  id="email"for="last_name">Email</label>
+                <input type="text" name="Email" placeholder="" id="box-3"/required>
+                <label  id="message"for="last_name">message</label>
+                <input type="text" name="message"id="box-4"/required>
+                <input  id="sub-data"type="submit" name="submit" value="Submit">
+      </form>
+      <footer class="section-4">
+        <h2 class="footer-title">	&copy; 2021 Travel Guide.com </h2>
+        <ul class="list" id="contact-list">
+          <li>Phone +98573521</li>
+          <li>location westbank</li>
+          <li>email travelguide@bussnies.com</li>
+        </ul>
+      </footer>
+
+   </div>
   </body>
 </html>
