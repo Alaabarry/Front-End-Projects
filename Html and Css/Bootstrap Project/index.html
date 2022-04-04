@@ -1,0 +1,150 @@
+<!DOCTYPE  html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Academy cinema</title>
+    <style>
+    .card-img-top {
+      width: 100%;
+      height:250px;
+    }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-info  ">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-3 fst-italic">
+          <li class="nav-item active">
+            <a class="nav-link text-light fs-5" aria-current="page" href="#About">About</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-light fs-5" href="#Showtimes">Showtimes</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-light fs-5">Deals</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-primary my-2 my-sm-0 text-light me-3" type="submit">Search</button>
+        </form>
+      </div>
+  </nav>
+
+ <div class="jumbotron jumbotron-fluid bg-info text-center">
+   <div class="container  py-3 py-lg-5">
+     <h1 class="display-4 text-light fw-light fs-1">Academy Cinemas</h1>
+     <p class="lead text-light "> sit back, relax and enjoy the movies....</p>
+   </div>
+ </div>
+ <div class="container my-5 ps-0 pe-0">
+  <div class="row">
+    <div class="col-sm-4">
+      <img class="img-fluid" src="./Images/pic-4.jpg" alt="portland">
+    </div>
+
+    <div class="col-sm-4">
+      <h3>Accomodations :</h3>
+      <p>Located in Portland Oregon's Pearl district, entertain our community since 1980 </p>
+      <p>enjoy watching the latest movies with Extreme Digital cinema,Giant TV screens in full-HD and 4K extends from ceiling-to-floor and wall-to-wall provide entertaining experience .</p>
+      <p>Food Services in Cinema  Are  popcorn, candy, and soda. </p>
+    </div>
+
+    <div class="col-sm-4">
+      <h3 class="pt-1">Now Playing:</h3>
+      <ul class="list-group">
+        <li class="list-group-item"><a class="nav-link" href="#kong">Kong: the skull island</a></li>
+        <li class="list-group-item"><a class="nav-link" href="#ghost">Ghost in the shell</a></li>
+        <li class="list-group-item"><a class="nav-link" href="#Beauty">Beauty and the Beast</a></li>
+      </ul>
+          </div>
+         </div>
+      </div>
+    <!--showtimes-->
+      <div class="container ps-0 pe-0">
+
+        <h3 class="">Showtimes:</h3>
+        <div class="card-group"id="Showtimes">
+          <div class="card" id="kong">
+            <img src="./Images/pic-3.jpg" class="card-img-top" alt="image card cap">
+            <div class="card-body">
+              <h5 class="card-title">Kong:The Skull Island</h5>
+              <p class="card-text">team of scientists and Vietnam War soldiers travel to the uncharted Skull Island and meet Kong, a gigantic ape who is the last of his species, closely followed by other terrifying creatures.</p>
+              <span class="badge bg-primary">12:00pm</span>
+              <span class="badge bg-primary">1:30pm</span>
+              <span class="badge bg-primary">5:20pm</span>
+              <span class="badge bg-primary">6:10pm</span>
+              <span class="badge bg-primary">11:00pm</span>
+              <p class="card-text pt-1"><small class="text-muted">Last updated 8 mins ago</small></p>
+             </div>
+           </div>
+
+  <div class="card pe-5 ps-5" id="ghost">
+    <img src="./Images/pic-2.jpg" class="card-img-top" alt="image card cap">
+    <div class="card-body">
+      <h5 class="card-title">Ghost in the shell</h5>
+      <p class="card-text">Augmentation developer Hanka Robotics establishes a secret project to develop an artificial body, or "shell", that can integrate a human brain rather than an AI.</p>
+      <span class="badge bg-primary">12:00pm</span>
+      <span class="badge bg-primary">10:30pm</span>
+      <span class="badge bg-primary">5:20pm</span>
+      <span class="badge bg-primary">6:10pm</span>
+      <span class="badge bg-primary">11:00pm</span>
+      <p class="card-text pt-1"><small class="text-muted">Last updated 5 mins ago</small></p>
+     </div>
+   </div>
+
+   <div class="card" id="Beauty">
+    <img src="./Images/pic-1.jpg" class="card-img-top" alt="Image card cap ">
+    <div class="card-body">
+      <h5 class="card-title">Beauty and the Beast</h5>
+      <p class="card-text">A prince cursed to spend his days as a hideous monster sets out to regain his humanity by earning a young woman's love..
+        Having lived a life in selfishness, young Prince Adam is cursed.
+      </p>
+      <span class="badge bg-primary">12:00pm</span>
+      <span class="badge bg-primary">1:30pm</span>
+      <span class="badge bg-primary">5:20pm</span>
+      <span class="badge bg-primary">6:10pm</span>
+      <span class="badge bg-primary">11:00pm</span>
+      <p class="card-text pt-1"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+    </div>
+  <!--/showtimes-->
+       <div class="text-center">
+         <form class="" action="index.html" method="post">
+            <h3 class="text-primary my-5 fw-bold fst-italic">Sign Up For Movies Club Rewards!</h3>
+            <div class="form-group">
+             <input type="email" name="email"  class="form-control" id="inputEmail" placeholder="Enter email" aria-describedby="emailhelp">
+            </div>
+            <button type="submit" name="button" class="btn btn-primary">Submit</button>
+         </form>
+     </div>
+     <!--About section-->
+      <div class="container my-5" id="About">
+        <ul class="nav nav-inline ">
+          <li class="nav-item">
+            <small> <a href="#" class="nav-link active">Movie Rewards</a></small>
+          </li>
+          <li class="nav-item">
+            <small> <a href="#" class="nav-link active">Movies@news.org</a></small>
+          </li>
+          <li class="nav-item">
+            <small> <a href="#" class="nav-link active">info@academycinemas.com</a></small>
+          </li>
+          <li class="nav-item">
+            <small> <a  class="nav-link active">&copy;2019 Academy Cinemas &reg;</a></small>
+          </li>
+        </ul>
+      </div>
+      <!--About section end-->
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
